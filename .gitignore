@@ -1,0 +1,35 @@
+# Garbage files
+.zsh_sessions
+.viminfo
+.vscode
+.cache
+.local
+.node
+go
+
+# macOS Files
+.CFUserTextEncoding
+.DS_Store
+.Trash
+Applications
+Desktop
+Documents
+Downloads
+Library
+Movies
+Music
+Pictures
+Public
+
+# Sensitive files
+.*_history
+.gnupg
+*.kdbx
+.ssh
+.npm
+
+
+# Docker
+.docker/*
+!.docker/config.json
+!.docker/features.json
