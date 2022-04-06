@@ -1,9 +1,13 @@
 # Garbage files
 .zsh_sessions
+.dartServer
+.macports
 .viminfo
 .vscode
+.gradle
 .cache
 .local
+.deno
 .node
 go
 
@@ -23,13 +27,14 @@ Public
 
 # Sensitive files
 .*_history
+.android
 .gnupg
 *.kdbx
 .ssh
 .npm
 
-
 # Docker
 .docker/*
 !.docker/config.json
 !.docker/features.json
+
